@@ -99,22 +99,22 @@ const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
 const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
     if (time2 < "24:59:00") {
-      var ucapanWaktu = "Good night";
+      var ucapanWaktu = "සුභ රාත්‍රියක්";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Good evening🌞";
+      var ucapanWaktu = "සුභ උදෑසනක්🌞";
     }
     if (time2 < "18:00:00") {
-      var ucapanWaktu = "Good afternoon🌄";
+      var ucapanWaktu = "සුභ රාත්‍රියක්🌄";
     }
     if (time2 < "15:00:00") {
-      var ucapanWaktu = "Good afternoon☀️";
+      var ucapanWaktu = "සුභ දහවලක්☀️";
     }
     if (time2 < "11:00:00") {
-      var ucapanWaktu = "Good morning🌅";
+      var ucapanWaktu = "සුභ සන්ද්‍යාවක්🌅";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Good night🌃";
+      var ucapanWaktu = "සුභ රාත්‍රියක්🌃";
     }
  // BATAS \\
 menusimpel = false
@@ -135,7 +135,7 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "94777607391"; 
 owner = "94777607391"; 
-fakeyoi = "KAVINDU"; 
+fakeyoi = "𝗄𝖺𝗏𝗂𝗇𝖽𝗎&𝗄𝖺𝗏𝖾𝖾𝗃𝖺"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -145,7 +145,7 @@ dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
 nomorowner1 = "@94777607391"; 
-fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+fake = `𝗢𝘄𝗻𝗲𝗿𝘀 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
@@ -372,8 +372,8 @@ const checkRegisteredUser = (sender) => {
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
-const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type #verify\n𝗧𝗮𝗱𝗮𝘀𝗵𝗶```'
+const daftar1 = `හායි ${pushname} ${ucapanWaktu} \n\nබොට් භාවිතයට පෙර VARIFY කරන්න `
+       const daftar2 = '```VARIFY කිරීමට පහත බටනය හො #verify යොදාගන්න\n𝗧𝗮𝗱𝗮𝘀𝗵𝗶```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -414,7 +414,7 @@ const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 cmhit.push(command)
     //MESS
     mess = {
-      wait: "𝙒𝙖𝙞𝙩 𝘼 𝙈𝙞𝙣𝙪𝙩𝙚 シ︎",
+      wait: "මොහතක් සිටින්න シ︎",
       success: "Success シ︎",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
@@ -1330,14 +1330,14 @@ case 'menu':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
-           
+          
               uptime = process.uptime();
               timestampe = speed();
               totalChat = await xeon.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-       txtt =`Hi ${pushname} 👋\n\nIF MENU DOESNT APPEAR ON CLICKING MENU BUTTON, TYPE (සමහර whats app වලට button වැඩ නැ) #allmenu`
+       txtt =`Hi ${pushname} 👋\n\nMENU බටනය ක්‍රියා නොකර හොත්#allmenu යොදාගන්න`
 
                buttons = [{buttonId:`allmenu`, 
                buttonText:{displayText: 'MENU🐱'},type:1},
@@ -1386,7 +1386,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `
-🐱 Hi @${sender.split("@")[0]}
+🐱 හායි @${sender.split("@")[0]}
 
 シ︎ 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} 
 シ︎ 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}
@@ -1396,7 +1396,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 シ︎ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${os.platform()}
 ${readmore}
  
- ⬣ 𝙊𝙒𝙉𝙀𝙍 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
+ ⬣ 𝙊𝙒𝙉𝙀𝙍 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎 ❗හිමි කරුට පමණයි
 > ⬡ ${prefix}off
 > ⬡ ${prefix}isbaileys
 > ⬡ ${prefix}banchat
@@ -1740,7 +1740,7 @@ case 'owner':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
-               haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
+               haibg =`හායි🌝🌚 ${pushname}\nkavindu @94777607391 and kaveeja @94740992012 are my owners `
                buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
                buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
@@ -2138,7 +2138,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}settarget
 
-㋛${prefix}setfakeimg
+㋛${prefix}set fake mg
 
 ㋛${prefix}setreply
 
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/Tadashibot/TADASHI-BOT"
         },
         "index": 0
       }
