@@ -1,5 +1,5 @@
 // Script by Xeon 
-// 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
+// 𝗧𝗮𝗱𝗮𝘀𝗵𝗶
 // ©Xeon Bot Incorporated
 const {
   WAConnection: _WAConnection,
@@ -133,8 +133,8 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
+targetpc = "94777607391"; 
+owner = "94777607391"; 
 fakeyoi = "Xeon"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@94777607391"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -343,7 +343,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`94777607391@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -373,7 +373,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type #verify\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭```'
+       const daftar2 = '```Click the button below to verify bro or type #verify\n𝗧𝗮𝗱𝗮𝘀𝗵𝗶```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -445,7 +445,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94777607391?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -790,7 +790,7 @@ if (!itsMe && !isOwner)return
             description: "Xeon",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+            retailerId: "𝗧𝗮𝗱𝗮𝘀𝗵𝗶",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -916,7 +916,7 @@ xeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       xeon.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Xeon Bot Inc.`, "footerText": "*_𝐃𝐨𝐠𝐞 𝐁𝐨𝐭_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Xeon Bot Inc.`, "footerText": "*_𝗧𝗮𝗱𝗮𝘀𝗵𝗶_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             xeon.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -926,14 +926,14 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝗧𝗮𝗱𝗮𝘀𝗵𝗶`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
              res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Xeon*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94777607391?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -941,7 +941,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\n𝗧𝗮𝗱𝗮𝘀𝗵𝗶. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
@@ -956,12 +956,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/94777607391`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/94777607391`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/94777607391`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1133,7 +1133,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "94777607391@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1165,7 +1165,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "94777607391@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1302,14 +1302,14 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 Database*
+*Thank you for registering in the 𝗧𝗮𝗱𝗮𝘀𝗵𝗶 Database*
 
 *☂︎ Name :* ${pushname}
 *☂︎ API :* +${sender.split('@')[0]}
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 」*`
+*「 𝗧𝗮𝗱𝗮𝘀𝗵𝗶 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
@@ -1321,7 +1321,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			xeon.updatePresence(from, Presence.composing)
-			reply(`*Thank you for being registered 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭*`)
+			reply(`*Thank you for being registered 𝗧𝗮𝗱𝗮𝘀𝗵𝗶*`)
 		}, 2000)
         break
       
@@ -1377,8 +1377,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "94777607391@s.whatsapp.net"
+        dtod = '94777607391'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1581,8 +1581,8 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
+   dtod = '94777607391'
+   dtod1 = '94777607391'
    dtod2 = '919774340154'
    dtod3 = ''
    dtod4 ='0'
@@ -1634,7 +1634,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('916909137213@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('94777607391@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -1954,7 +1954,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'kavi',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -1968,7 +1968,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+ footerText: '𝗧𝗮𝗱𝗮𝘀𝗵𝗶',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2040,7 +2040,7 @@ menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2091,7 +2091,7 @@ menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
 
 ㋛${prefix}kickarea
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2154,7 +2154,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}colongsw [reply sw]
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2177,7 +2177,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}upswlocation
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2264,7 +2264,7 @@ menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}playstore <query>
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2315,7 +2315,7 @@ menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2354,7 +2354,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭"
+      "footerText": " 𝗧𝗮𝗱𝗮𝘀𝗵𝗶"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})
@@ -4152,7 +4152,7 @@ case 'setprefix':
             ini_buf = await getBuffer(`https://xeon.herokuapp.com/api/maker/nulis?apikey=${valkey}&text=${teks}`)  
 buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(ini_buf, "imageMessage", { thumbnail: ini_buf, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4163,7 +4163,7 @@ buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},typ
                 if (args.length < 1) return reply(`where is the text bro??\nexample ${prefix + command} ${pushname}`)
                 dpuhy = args.join(' ')
                tiyo = `Please choose one`
-sendButMessage(from, tiyo, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, tiyo, `𝗧𝗮𝗱𝗮𝘀𝗵𝗶`, [
             {              
               buttonId: `writedown ${dpuhy}`,
               buttonText: {
@@ -4190,14 +4190,14 @@ sendButMessage(from, tiyo, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
              const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc = await xeon.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCASTING 」*\n\n${body.slice(4)}`})
+             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 𝗧𝗮𝗱𝗮𝘀𝗵𝗶 BROADCASTING 」*\n\n${body.slice(4)}`})
 }
              reply('Broadcast success')
              } else {
              for (let _ of anu) {
 xeon.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+			"footerText": '𝗧𝗮𝗱𝗮𝘀𝗵𝗶',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK TO VIEW MENU"
@@ -4216,7 +4216,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=yuri&apikey=${hardi}`)
 buttons = [{buttonId: `yuri`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4228,7 +4228,7 @@ reply(mess.wait)
 aku = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=anal&apikey=${hardi}`)
 buttons = [{buttonId: `anal`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(aku, "imageMessage", { thumbnail: aku, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4240,7 +4240,7 @@ reply(mess.wait)
 kau = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=lesbian&apikey=${hardi}`)
 buttons = [{buttonId: `lesbian`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kau, "imageMessage", { thumbnail: kau, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4252,7 +4252,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=eroNeko&apikey=${hardi}`)
 buttons = [{buttonId: `eroneko`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4264,7 +4264,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=bJ&apikey=${hardi}`)
 buttons = [{buttonId: `bj`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4276,7 +4276,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=kitsune&apikey=${hardi}`)
 buttons = [{buttonId: `kitsune`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4288,7 +4288,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=pussy&apikey=${hardi}`)
 buttons = [{buttonId: `pussy`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4300,7 +4300,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=wallpaper&apikey=${hardi}`)
 buttons = [{buttonId: `wallpaper`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4312,7 +4312,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=neko&apikey=${hardi}`)
 buttons = [{buttonId: `neko2`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4324,7 +4324,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=baka&apikey=${hardi}`)
 buttons = [{buttonId: `baka`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4336,7 +4336,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=slap&apikey=${hardi}`)
 buttons = [{buttonId: `slap`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4348,7 +4348,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=poke&apikey=${hardi}`)
 buttons = [{buttonId: `poke`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4360,7 +4360,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=keta&apikey=${hardi}`)
 buttons = [{buttonId: `keta`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               xeon.relayWAMessage(prep)
@@ -4420,7 +4420,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/nuliskiri?text=${c}&apikey=${hardi}`)
 buttons = [{buttonId: `writeleft`,buttonText:{displayText: `Write List🔖`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4432,7 +4432,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/nuliskanan?text=${c}&apikey=${hardi}`)
 buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4444,7 +4444,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/foliokanan?text=${c}&apikey=${hardi}`)
 buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4486,7 +4486,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/foliokiri?text=${c}&apikey=${hardi}`)
 buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4637,7 +4637,7 @@ case 'nsfw':
 					buffer1 = await getBuffer(anu.result.url)
 buttons = [{buttonId: `quote`,buttonText:{displayText: `Thx Dah Pake`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(buffer1, "imageMessage", { thumbnail: buffer1, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -4771,7 +4771,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         let di = await getBuffer(ac);
 buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'𝐃𝐨𝐠𝐞 𝐁𝐨𝐭', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝗧𝗮𝗱𝗮𝘀𝗵𝗶', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               xeon.relayWAMessage(prep)
@@ -6187,7 +6187,7 @@ xeon.sendMessage(from, stdout, text, term)
     } else {
       console.log(
         color("[Doge Bot]", "red"),
-        "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+        "𝗧𝗮𝗱𝗮𝘀𝗵𝗶",
         color(sender.split("@")[0])
       );
     }
