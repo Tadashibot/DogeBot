@@ -93,7 +93,7 @@ const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 // BATAS IMAGE FOLDER //
 const iye = fs.readFileSync('./stik/thumb.jpeg')
-const asw1 = 'https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg'
+const asw1 = 'https://i.ibb.co/MhMCh57/6a654abf8c2f.jpg'
 const sip = fs.readFileSync('./stik/oksip.jpeg')
 const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
@@ -135,7 +135,7 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "94777607391"; 
 owner = "94777607391"; 
-fakeyoi = "𝗄𝖺𝗏𝗂𝗇𝖽𝗎&𝗄𝖺𝗏𝖾𝖾𝗃𝖺"; 
+fakeyoi = "kavindu"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -145,7 +145,7 @@ dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
 nomorowner1 = "@94777607391"; 
-fake = `𝗢𝘄𝗻𝗲𝗿𝘀 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
@@ -916,7 +916,7 @@ xeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       xeon.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Xeon Bot Inc.`, "footerText": "*_𝗧𝗮𝗱𝗮𝘀𝗵𝗶_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/FaCP7T3sDID4ZtDEjq2GG5', "groupName": `Tadashi Bot Inc.`, "footerText": "*_𝗧𝗮𝗱𝗮𝘀𝗵𝗶_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             xeon.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -944,7 +944,7 @@ sendEphemeral: false,
                 "title": `Whatsapp-BOT\n𝗧𝗮𝗱𝗮𝘀𝗵𝗶. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://i.ibb.co/MhMCh57/6a654abf8c2f.jpg",
                 "thumbnail": fake,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : fgif})
@@ -959,7 +959,7 @@ sendEphemeral: false,
                 "body": `wa.me/94777607391`,
                 "mediaType": "10",
                 "mediaUrl": `wa.me/94777607391`,
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://i.ibb.co/MhMCh57/6a654abf8c2f.jpg",
                 "thumbnail": iye,
                 "sourceUrl": `wa.me/94777607391`,
 },mentionedJid:[sender]}, quoted : mek})
@@ -973,7 +973,7 @@ sendEphemeral: false,
 "title": `Hello ${pushname}` ,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
-"thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+"thumbnailUrl": "https://i.ibb.co/MhMCh57/6a654abf8c2f.jpg",
 "mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
@@ -1582,16 +1582,16 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 break
 case 'credit':
    dtod = '94777607391'
-   dtod1 = '94777607391'
-   dtod2 = '919774340154'
+   dtod1 = '94740992012'
+   dtod2 = '0'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑠 𝐵𝑦 ] :
    
- 🌿 : wa.me/${dtod1.split("@")[0]}
- 🌿 : wa.me/${dtod.split('@')[0]}
- 🌿 : wa.me/${dtod2.split('@')[0]}
+ 🍂 : wa.me/${dtod1.split("@")[0]}
+ 🍂 : wa.me/${dtod.split('@')[0]}
+
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1817,7 +1817,7 @@ case 'buglink':
                 "title": `${virtex2(prefix)}`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://i.ibb.co/MhMCh57/6a654abf8c2f.jpg",
                 "thumbnail": fs.readFileSync(`./xeon.jpg`),
                 "sourceUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"}}})
                 break
@@ -2380,7 +2380,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://github.com/Tadashibot/TADASHI-BOT", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
